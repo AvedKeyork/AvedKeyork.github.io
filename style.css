@@ -1,0 +1,78 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background-color: lightgray; /* Simple background */
+    color: black; /* Foreground text color */
+    margin: 20px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2em;
+    color: darkgreen;
+}
+
+h2 {
+    font-size: 1.75em;
+    color: darkblue;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: darkslateblue;
+}
+
+h4, h5 {
+    font-size: 1.25em;
+    color: brown;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1em;
+    color: black;
+}
+
+/* Links */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: orange;
+}
+
+a:visited, a:link {
+    color: blue;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
