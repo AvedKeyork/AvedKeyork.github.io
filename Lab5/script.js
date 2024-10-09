@@ -1,5 +1,5 @@
 
-
+// Function for the name and display being on the page
 function askName() {
     var name = prompt("Please enter your name:");
     if (name) {
@@ -12,7 +12,7 @@ function askName() {
     }
 }
 
-
+// To enlarge the image when clicked
 function enlargeImage(imageId) {
     var image = document.getElementById(imageId);
     if (image.style.width === "200px") {
@@ -22,11 +22,11 @@ function enlargeImage(imageId) {
     }
 }
 
-
+// adding hover effects on nav items
 function addHoverEffect(element) {
     element.style.backgroundColor = 'lightblue';
 }
-
+// Create dropdown menu
 function removeHoverEffect(element) {
     element.style.backgroundColor = '';
 }
@@ -64,7 +64,7 @@ function createDropdown(menuName, items) {
     return listItem;
 }
 
-
+// lets initialize all elements after the page loads
 window.onload = function() {
     console.log("Initializing elements");
 
@@ -94,14 +94,14 @@ window.onload = function() {
         navList.appendChild(listItem);
     });
 
-    
+    // Dropdown menu items for "Extra"
     var extraMenuItems = [
         { text: 'Languages Spoken', link: 'languages.html' },
         { text: 'Work Experience', link: 'work.html' },
         { text: 'Volunteer Work' }
     ];
 
-    
+    // Same thing for "Certificates"
     var certificateMenuItems = [
         { text: 'Excel' },
         { text: 'SQL' },
