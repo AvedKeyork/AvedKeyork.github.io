@@ -119,7 +119,7 @@ window.onload = function() {
 
     var clickableImage = document.createElement('img');
     clickableImage.id = 'profileImage';
-    clickableImage.src = 'images/face.jpg';
+    clickableImage.src = 'face.jpg';
     clickableImage.alt = 'Profile Image';
     clickableImage.style.width = '100px';
     clickableImage.style.marginLeft = '10px';
