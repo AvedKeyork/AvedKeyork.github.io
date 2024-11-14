@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aved Keyork Sarkis - Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white text-center py-4">
+        <div class="container profile-container">
+            <img src="face.png" alt="Aved Keyork Sarkis" id="profileImage" class="profile-image img-fluid rounded-circle">
+            <h1 class="mt-3">Aved Keyork Sarkis</h1>
+            <p class="subtitle">Undergraduate Business Technology Management</p>
+            <button id="enterNameButton" class="btn btn-primary mt-3">Enter Your Name</button>
+        </div>
+        <!-- Enlarge Text Button -->
+        <button id="enlargeTextButton" class="btn btn-outline-light position-absolute top-0 end-0 m-3">Enlarge Text</button>
+        <!-- High-Contrast Button -->
+        <button id="colorToggleButton" class="btn btn-outline-light position-absolute top-0 start-0 m-3">Toggle High-Contrast</button>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">More About Me</a></li>
+                    
+                    <!-- Dropdown for Extra -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="extraDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Extra
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="extraDropdown">
+                            <li><a class="dropdown-item" href="languages.html">Languages Spoken</a></li>
+                            <li><a class="dropdown-item" href="work.html">Work Experience</a></li>
+                            <li><a class="dropdown-item" href="#">Volunteer Work</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Dropdown for Certificates -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="certDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Certificates
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="certDropdown">
+                            <li><a class="dropdown-item" href="#">Excel</a></li>
+                            <li><a class="dropdown-item" href="#">SQL</a></li>
+                            <li><a class="dropdown-item" href="#">Python</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Main Content -->
+    <main class="container my-4">
+        <!-- About Section -->
+        <section id="about" class="mb-5">
+            <h2 class="text-primary">About Me</h2>
+            <p>I'm an undergraduate student pursuing a degree in Business Technology Management...</p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="mb-5">
+            <h2 class="text-primary">Education</h2>
+            <p><strong>Business Technology Management - BComm (Hons)</strong></p>
+            <p>Toronto Metropolitan University, September 2021 - Present</p>
+        </section>
+
+        <!-- Learn More About Me Section (Audio) -->
+        <section id="learnMore" class="mb-5">
+            <h2 class="text-primary">Learn More About Me</h2>
+            <p>Listen to my introduction below:</p>
+            <figure>
+                <audio controls>
+                    <source src="aboutme.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <figcaption class="mt-2">
+                    <em>Audio recording of myself introducing who I am, created on November 10, 2024.</em>
+                </figcaption>
+            </figure>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="mb-5">
+            <h2 class="text-primary">Experience</h2>
+            <h3>Shopper Drug Mart - Cashier</h3>
+            <p>August 2021 - Present</p>
+            <p>Responsible for customer service and assisting with daily store operations...</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-5">
+            <h2 class="text-primary">Skills</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Project Management</li>
+                <li class="list-group-item">Data Analysis</li>
+                <li class="list-group-item">Business Management</li>
+                <li class="list-group-item">Data Visualization</li>
+                <li class="list-group-item">Statistical Analysis</li>
+                <li class="list-group-item">Cloud Computing</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-5">
+            <h2 class="text-primary">Projects</h2>
+            <ul class="list-group">
+                 <li class="list-group-item">
+                     <strong>Service-Oriented Architecture Project:</strong> Designed and managed enterprise processes...
+                </li>
+                <li class="list-group-item">
+                    <strong>Project Management with MS-Project Software:</strong> Planned and managed the installation...
+                </li>
+                <li class="list-group-item">
+                    <strong>Cloud Vendor Audit Project:</strong> Conducted a comprehensive audit of major cloud vendors...
+                </li>
+                <li class="list-group-item">
+                    <strong>Marketing Analytics Project:</strong> Analyzed customer data from a Portuguese bank's marketing...
+                </li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-5">
+            <h2 class="text-primary">Contact Me</h2>
+            <form id="userForm">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">Full Name:</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="phone" class="form-label">Phone:</label>
+                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="Enter your phone number">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="contactDate" class="form-label">Preferred Contact Date:</label>
+                        <input type="date" id="contactDate" name="contactDate" class="form-control">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message:</label>
+                    <textarea id="message" name="message" class="form-control" rows="4" placeholder="Your message or inquiry..."></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-secondary">Clear</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Bootstrap and JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
